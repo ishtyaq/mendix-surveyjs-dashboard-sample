@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="ia.mxsurveydashboard.MxSurveyDashboard"
+        pluginWidget="true"
+        needsEntityContext="true"
+        offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+
+    <name>SurveyJs Dashboard</name>
+    <description>SurveyJS Dashboard for user responses</description>
+    <icon/>
+
+    <properties>
+        <propertyGroup caption="General">
+
+            <property key="licenseKey" type="string" required="false">
+                <caption>License Key</caption>
+                <description>SurveyJS Dashboard license key (required for production usage).</description>
+             </property>
+
+            <property key="surveyJson" type="attribute" required="true">
+                <caption>Survey JSON</caption>
+                <description>Survey definition JSON (String attribute).</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+            <property key="surveyResults" type="attribute" required="true">
+                <caption>Survey Results</caption>
+                <description>Survey results JSON array (String attribute).</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+        </propertyGroup>
+    </properties>
+</widget>
