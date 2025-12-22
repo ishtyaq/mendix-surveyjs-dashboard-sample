@@ -4,6 +4,8 @@ This repository contains a **Mendix sample application** demonstrating how to us
 
 It builds on my earlier SurveyJS form integration and extends it with **enterprise-grade reporting** using the SurveyJS Dashboard component.
 
+<img width="1861" height="745" alt="image" src="https://github.com/user-attachments/assets/b0e2e52f-9e22-4ff1-be27-98f5425d59af" />
+
 
 ## What this sample shows
 
@@ -19,6 +21,8 @@ It builds on my earlier SurveyJS form integration and extends it with **enterpri
   * Survey visualization
 
 This is intended as a **reference implementation**, not a production-ready app.
+
+<img width="1874" height="972" alt="image" src="https://github.com/user-attachments/assets/acfbdf16-fad6-40aa-ae24-99e0ad42c95d" />
 
 
 ## Important: License Requirement ⚠️
